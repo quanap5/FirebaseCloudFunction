@@ -24,12 +24,14 @@ The principle step for this project
 
 - Login into Firebase account
 + firebase login
++ <img src="https://github.com/quanap5/FirebaseCloudFunction/blob/master/demo/firebase_login.PNG">
 
 -Setting up Firebase at the root of the your project
 + firebase init functions
++ <img src="https://github.com/quanap5/FirebaseCloudFunction/blob/master/demo/firebase_init_functions.PNG">
 
 -the firebaserc will contains the name of your Firebase project
-+ [img]
++ <img>
 
 -the functions folder contains:
 + the index.js file is the function will be deployed
@@ -47,7 +49,10 @@ Note: Errors Error: functions predeploy error: Command terminated with non-zero 
 
 Edit content in firebase.Json to "npm --prefix \"%RESOURCE_DIR%\" run lint"
 
-- <img src="https://github.com/quanap5/FirebaseCloudFunction/blob/master/demo/deployFunctions.PNG">
+- <img src="https://github.com/quanap5/FirebaseCloudFunction/blob/master/demo/deployfunction2.PNG">
+- <img src="https://github.com/quanap5/FirebaseCloudFunction/blob/master/demo/deploySucess.PNG">
+
+
 
 
 
